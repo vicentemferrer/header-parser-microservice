@@ -1,0 +1,74 @@
+/****** Main Styling ******/
+
+body {
+	height: 100vh;
+
+	display: grid;
+	place-items: center;
+	align-content: center;
+
+	color: whitesmoke;
+	background-color: black;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+main {
+	padding: 2rem 4rem;
+
+	border-radius: 1rem;
+
+	background-color: #FFF1;
+}
+
+h2:not(h2:first-child) {
+	margin-bottom: 2rem;
+}
+
+p:not(footer p) {
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+}
+
+a {
+	color: #2574A9;
+}
+
+code {
+	width: fit-content;
+	padding: 1rem;
+
+	display: block;
+
+	border-radius: .5rem;
+
+	background-color: black;
+}
+
+code .line {
+	display: block;
+}
+
+code .line:not(.line:has(.bracket)) {
+	margin-left: 1rem;
+}
+
+code .bracket {
+	color: yellow;
+}
+
+code .key {
+	color: aquamarine;
+}
+
+code .value {
+	color: #FFCC00;
+}
+
+footer {
+	padding-top: 1rem;
+
+	text-align: center;
+}
