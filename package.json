@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "headerparser-microservice",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "API project for freeCodeCamp",
     "main": "index.js",
     "scripts": {
@@ -16,7 +16,7 @@
         "type": "git",
         "url": "https://github.com/vicentemferrer/headerparser-microservice.git"
     },
-    "homepage": "",
+    "homepage": "https://headerparser-microservice-ay61.onrender.com",
     "author": "Vicente Ferrer",
     "keywords": [
         "node",
